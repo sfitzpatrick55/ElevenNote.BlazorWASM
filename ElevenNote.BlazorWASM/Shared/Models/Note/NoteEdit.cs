@@ -1,10 +1,13 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ElevenNote.BlazorWASM.Shared.Models
+namespace ElevenNote.BlazorWASM.Shared.Models.Note
 {
-    public class NoteCreate
+    public class NoteEdit
     {
+        [Required]
+        public int Id { get; set; }
+
         [Required]
         public string Title { get; set; }
 

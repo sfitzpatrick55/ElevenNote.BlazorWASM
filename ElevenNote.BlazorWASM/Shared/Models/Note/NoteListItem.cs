@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ElevenNote.BlazorWASM.Shared.Models
+namespace ElevenNote.BlazorWASM.Shared.Models.Note
 {
     public class NoteListItem
     {
